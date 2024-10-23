@@ -327,4 +327,8 @@ footer h2 {
   .contents {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .form-container>h2{
+    font-size: 40px;
+  }
 }
