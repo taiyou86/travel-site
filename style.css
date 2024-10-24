@@ -340,7 +340,7 @@ footer h2 {
   }
 
   .main h1 {
-    font-size: 80px;
+    font-size: 4rem;
   }
 
   .hero{
@@ -369,11 +369,14 @@ footer h2 {
   }
 
   .flex{
-    max-width: 95%;
+    max-width: 80%;
+  }
+  .flex h2{
+    font-size: 2rem;
   }
 
   .contents {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     padding: 20px 0;
   }
 
@@ -386,7 +389,7 @@ footer h2 {
   }
 
   .grid>img {
-    height: 180px;
+    height: 250px;
     object-fit: cover;
   }
 
@@ -396,6 +399,10 @@ footer h2 {
 
   .location h1{
     padding-top: 130px
+  }
+
+  .detail p{
+    font-size: 1.2em;
   }
 
   .form-container>h2{
