@@ -42,7 +42,7 @@ li:nth-child(1) {
 }
 
 li:hover {
-  background-image: url(tim-mossholder-07uiqD9LS6U-unsplash.jpg);
+  background-image: url("tim-mossholder-07uiqD9LS6U-unsplash.jpg");
   background-size: cover;
   background-position: center center;
 }
@@ -59,7 +59,7 @@ a {
 .main {
   width: 100%;
   height: 100vh;
-  background-image: url(neom-NPDnHmYsl6Y-unsplash\ \(1\).jpg);
+  background-image: url("neom-NPDnHmYsl6Y-unsplash\ \(1\).jpg");
   background-size: cover;
   background-position: center center;
 }
@@ -81,7 +81,7 @@ a {
   margin-top: 30px;
   height: 400px;
   overflow: hidden;
-  background-image: url(david-gomez-ZyDq456v4_A-unsplash\ \(1\).jpg);
+  background-image: url("david-gomez-ZyDq456v4_A-unsplash\ \(1\).jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -89,8 +89,6 @@ a {
 
 
 .hero>h1 {
-  width: 100%;
-  height: 100vh;
   text-align: center;
   padding-top: 140px;
   background: linear-gradient(90deg, #a1c4fd, #c2e9fb, #fddb92, #d4fc79, #96e6a1, #a1c4fd);
@@ -176,8 +174,6 @@ a {
 }
 
 .location>h1 {
-  width: 100%;
-  height: 100vh;
   font-size: 90px;
   color: #ddd;
   text-align: center;
