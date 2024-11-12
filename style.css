@@ -8,7 +8,7 @@
 
 iframe{
   height:600px ;
-  width: 100%;
+  width: 80%;
   border:0;
 }
 
@@ -210,26 +210,12 @@ a {
 }
 
 .form-container {
-  background:#96e6a1;
-  background-size: 500% 100%;
+  margin: 0 auto;
+  background:#cae5ce;
+  width: 80%;
   padding: 60px 0 100px 0;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  animation: gradient 10s linear infinite;
-}
-
-@keyframes gradient {
-  0%{
-    background-position:0% 50%;
-  }
-
-  50%{
-    background-position:100% 50%;
-  }
-
-  100%{
-    background-position:0% 50%;
-  }
 }
 
 .form-container>h2 {
@@ -242,13 +228,13 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: end;
-  max-width: 800px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
 label {
   margin-bottom: 10px;
-  color: white;
+  color: black;
   font-weight: bold;
 }
 
